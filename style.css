@@ -1,0 +1,65 @@
+.header {
+    position: relative;
+}
+
+.header img {
+    width: 100px;
+}
+
+.color {
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left:160px;
+    transform: translateY(-50%);
+}
+
+.color li{
+    list-style: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.red {
+    background-color: #B22222;
+}
+
+.blue {
+    background-color: #B0E0E6;
+}
+
+.grey {
+    background-color: #38454d;
+}
+
+.show {
+    display: inline-block;
+}
+
+.todo-form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+}
+
+.done {
+    color: lightgrey !important;
+    /* 删除线效果 */
+    text-decoration: solid line-through #B22222;
+    font-size: 20px;
+}
+
+.todo-done {
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 25px;
+}
